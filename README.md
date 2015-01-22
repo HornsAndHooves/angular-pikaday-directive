@@ -1,3 +1,5 @@
 # Angular Pikaday Directive
 
-This directive let you use Pikaday as a Angular directive.
+This directive let's you use Pikaday as an Angular directive.
+
+(Forked by HornsAndHooves.)
