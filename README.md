@@ -1,6 +1,6 @@
 # Angular Pikaday Directive
 
-This directive let's you use Pikaday as an Angular directive.
+This directive lets you use Pikaday as an Angular directive.
 
 **Note:** To use this fork, add this to your `bower.json` dependencies:
 
