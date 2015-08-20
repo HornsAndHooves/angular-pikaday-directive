@@ -7,7 +7,8 @@ angular.module('pikaday', [])
 
     return {
         scope: {
-            'date': '=ngModel'
+            'date': '=ngModel',
+            'pikadayObject': '='
         },
         require: 'ngModel',
         link: function ($scope, elem, attrs) {
@@ -28,10 +29,10 @@ angular.module('pikaday', [])
                 }
             };
 
-            var picker = new Pikaday(options);
+            $scope.pikadayObject = new Pikaday(options);
 
             $scope.$on('$destroy', function() {
-                picker.destroy();
+                $scope.pikadayObject.destroy();
             });
         }
     };
