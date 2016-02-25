@@ -37,8 +37,8 @@ angular.module('pikaday', [])
               saturdayIndex = (6 - this._o.firstDay) % 7;
               sundayIndex = (saturdayIndex + 1) % 7;
               _.each([saturdayIndex, sundayIndex], function(index) {
-                $el.find(`th:eq(${ index })`).addClass("weekend");
-                $el.find(`tr td:nth-child(${ index +1 })`).addClass("weekend");
+                $el.find("th:eq("+ index + ")").addClass("weekend");
+                $el.find("tr td:nth-child(" + (index + 1) + ")").addClass("weekend");
               })
               $el.find("tr > :not(.weekend)").addClass("weekday");
             }
