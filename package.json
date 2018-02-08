@@ -1,18 +1,17 @@
 {
   "name": "angular-pikaday-directive",
   "version": "0.0.1.7",
-  "authors": [
-    "Sebastian Slomski <me@sebslomski.com>"
-  ],
   "description": "Angular directive for Pikaday datepicker",
   "main": "pikaday-directive.js",
+  "repository": "https://github.com/HornsAndHooves/angular-pikaday-directive.git",
+  "author": "Sebastian Slomski <me@sebslomski.com>",
+  "license": "MIT",
   "keywords": [
     "pikaday",
     "angular",
     "directive",
     "datepicker"
   ],
-  "license": "MIT",
   "dependencies": {
     "pikaday": "~1.4.0"
   }
