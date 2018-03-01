@@ -12,7 +12,7 @@ This directive lets you use Pikaday as an Angular directive.
 - for `bower` add this to your `bower.json` dependencies:
 
     ```
-    "angular-pikaday-directive": "HornsAndHooves/angular-pikaday-directive#0.0.1.7"
+    "angular-pikaday-directive": "HornsAndHooves/angular-pikaday-directive#0.0.2"
     ```
 
 It will allow you to use the `v1.4.x` series of `pikaday`.
